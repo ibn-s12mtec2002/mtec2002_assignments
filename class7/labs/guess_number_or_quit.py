@@ -31,3 +31,10 @@ Guess the number I'm thinking of...
 > quit
 Bye!
 """
+secret_number = 24
+while true:
+	print "please enter a number"
+	user_input = int(raw_input("> "))
+	if secret_number == user_input:
+		print "you got it!"
+		exit()
