@@ -18,3 +18,20 @@ Break down your problem using a flow chart, pseudocode, etc.  Here's a basic lis
 8. If command is quit, then exit the game
 9. If the command is not quit or roll, say "I don't know that command"
 """
+
+
+import random
+print """   ------
+ /      /|  ~Dice Warz~
+ ------| |
+ |     | |
+ |     |/
+ ------
+ """
+ scores = {"player":0, "computer":0}
+ while true:
+ 	print "roll or quit?"
+ 	command = raw_input(">")
+ 	if command == "roll":
+ 		player_roll = random.randint(1,6)
+ 		computer
